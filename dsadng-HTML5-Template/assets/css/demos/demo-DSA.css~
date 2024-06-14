@@ -1,0 +1,63 @@
+/*==================================
+This stylesheet is used for demo 6
+=================================*/
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("../../fonts/Geomanist-Black-Italic.otf");
+}
+
+:root{
+  --family-display: 'Geomanist', cursive;
+
+  --color-primary: #cc0000;
+  --color-primary-hover: #D4AE16;
+  --color-primary-hue: #FFFAE8;
+  --color-primary-rgb: 255, 209, 25;
+
+  --color-bg-light: #FBFBFB;
+
+  --logo-size-lg: 380px;
+  --logo-size-md: 340px;
+  --logo-size-sm: 120px;
+}
+
+.button.primary{
+  color: var(--color-secondary);
+}
+
+.section-title .family-display{
+  font-size: 70px;
+  
+}
+.andro_hero.style-4 .andro_hero-item-inner h1{
+  font-size: 70px;
+  
+}
+
+@media(max-width: 768px){
+  .section-title .family-display{
+    font-size: 50px;
+    
+  }
+  
+  .andro_hero.style-4 .andro_hero-item-inner h1{
+  font-size: 50px;
+  font-weight: 400;
+  color:#a8c620;
+}
+  
+  
+  
+  
+}
+
+@media(max-width: 420px){
+  .section-title .family-display{
+    font-size: 40px;
+  }
+  .andro_hero.style-4 .andro_hero-item-inner h1{
+  font-size: 40px;
+  font-weight: 400;
+  color:#a8c620;
+}

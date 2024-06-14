@@ -1,0 +1,21 @@
+/*==================================
+This stylesheet is used for demo 2
+=================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"');
+
+:root{
+  --family-display: 'Barlow';
+
+  --color-primary: #cc0000;
+  --color-primary-hover: #00AE52;
+  --color-primary-hue: #ffebef;
+  --color-primary-rgb: 0, 214, 101;
+
+  --color-bg-light: #F6F4ED;
+  
+
+  --logo-size-lg: 210px;
+  --logo-size-md: 160px;
+  --logo-size-sm: 120px;
+}

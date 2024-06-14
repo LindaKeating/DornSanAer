@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fıle Dorn San Aer - Gaoth Dobhair </title>
+
+  <!-- partial:../partial/__globalStyles.html -->
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+
+
+  <!-- Icon Fonts -->
+  <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+  <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+  <!-- Template Style sheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- partial -->
+
+  <!-- Demo Specific Sheet -->
+  <link rel="stylesheet" href="assets/css/demos/demo-4.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+</head>
+
+<body class="light-bg">
+
+  <!-- partial:partial/__header_demo_4.html -->
+  <!-- Preloader Start -->
+
+  <!-- Preloader End -->
+
+  <!-- Header Start -->
+  <div class="andro_header andro_header-absolute style-4">
+    <div class="container">
+
+      <div class="andro_header-inner">
+
+        <div class="andro_header-navigation">
+
+          <ul>
+            <li> <a href="#" class="mobile-trigger"> <i class="far fa-bars"></i> Menu</a> </li>
+            <li> <a href="#" class="search-trigger"> <i class="far fa-search"></i> Search</a> </li>
+            <li> <a href="#"> <i class="far fa-user"></i> Login</a> </li>
+          </ul>
+
+        </div>
+
+        <div class="andro_header-logo">
+          <a href="index.html"><img src="assets/img/logo-4.png" alt="logo"></a>
+        </div>
+
+        <div class="andro_header-controls">
+
+          <ul class="andro_socials">
+            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-soundcloud"></i> </a> </li>
+          </ul>
+          <a class="andro_header-cart" href="cart.html">
+            <i class="fal fa-shopping-basket"></i>
+            <span class="andro_header-cart-count">3</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+  <!-- Search Start -->
+  <div class="andro_header-search">
+    <div class="search-trigger close_btn">
+      <svg width="100" height="100" viewBox="0 0 100 100">
+        <path class="line line1"
+          d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058">
+        </path>
+        <path class="line line2" d="M 20,50 H 80"></path>
+        <path class="line line3"
+          d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942">
+        </path>
+      </svg>
+    </div>
+    <form class="andro_header-search-form" method="post">
+      <input type="text" placeholder="Search..." value="">
+      <button type="submit" class="andro_header-search-btn">
+        <i class="fal fa-search"></i>
+      </button>
+    </form>
+  </div>
+  <!-- Search End -->
+
+  <!-- partial -->
+
+  <!-- partial:partial/__collapse.html -->
+  <!-- Aside Start -->
+  <aside class="andro_aside">
+    <div class="close_btn mobile-trigger">
+      <svg width="100" height="100" viewBox="0 0 100 100">
+        <path class="line line1"
+          d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058">
+        </path>
+        <path class="line line2" d="M 20,50 H 80"></path>
+        <path class="line line3"
+          d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942">
+        </path>
+      </svg>
+    </div>
+    <nav>
+      <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li class="has-children">
+          <a href="#"> Pages </a>
+          <ul>
+            <li> <a href="line-up.html">Line Up</a> </li>
+            <li> <a href="artist-details.html">Artist Details</a> </li>
+            <li> <a href="cart.html">Cart</a> </li>
+            <li> <a href="pricing-plans.html">Pricing</a> </li>
+            <li> <a href="checkout.html">Checkout</a> </li>
+            <li> <a href="contact-us.html">Contact Us</a> </li>
+          </ul>
+        </li>
+        <li class="has-children">
+          <a href="#">Shows</a>
+          <ul>
+            <li> <a href="shows.html">Shows Archive</a> </li>
+            <li> <a href="show-details.html">Show Details</a> </li>
+          </ul>
+        </li>
+        <li> <a href="pricing-plans.html">Pricing</a> </li>
+        <li> <a href="contact-us.html">Contact Us</a> </li>
+      </ul>
+    </nav>
+
+    <div class="andro_aside-notice">
+      <h6>Follow Us</h6>
+      <p>Follow us on social media and stay up to date with the latest news and information.</p>
+      <ul class="andro_socials">
+        <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+        <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+        <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+        <li> <a href="#"> <i class="fab fa-soundcloud"></i> </a> </li>
+      </ul>
+    </div>
+
+  </aside>
+  <div class="andro_aside-overlay mobile-trigger"></div>
+  <!-- Aside End -->
+
+  <!-- partial -->
+
+  <!-- Subheader Start -->
+  <div class="andro_subheader bg-cover bg-center bg-norepeat dark-overlay dark-overlay-2" style="background-image: url(assets/img/subheader-4.jpg)">
+    <div class="container">
+
+      <h1>Cur síos ar an bhféile</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Baile</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Cur síos ar an bhféile 2024</li>
+        </ol>
+      </nav>
+
+    </div>
+  </div>
+  <!-- Subheader End -->
+
+
+<div class="section-title text-center">
+      <div class="section-title">
+        <p class="mb-0"> <i class="far fa-music"></i> Cur síos ar an bhféile 2024</p>
+        <h4> <p>Tá sé mar aidhm ag <br><span class="color-primary family-display">Féile DORN SAN AER</span> <br>an réabhlóid teanga a bhunaigh ár gcara, an tArd
+Rí agus gúrú, Rónán Mac Aodh Bhuí, a chomóradh agus a choinneáil beo bríomhar, tríd féile bhliantúil deireadh
+seachtaine a reáchtáil a chuirfidh fáilte roimh Ghaeil as gach cearn. Mar Ghaeil atá dílis don Ghaeilge agus do chur chun
+cinn na sochaí, tá sé mar chuspóir againn ardán a chur ar fáil d’ealaíontóirí shaol na Gaeilge, le gach spreagadh agus
+tacaíocht a thabhairt daofa, ar bhealach gairmiúil, nuálach agus atá ar ardchaighdeán, le Cultúr na nGael a cheiliúradh
+agus a chur chun tosaigh oiread agus is féidir. Tá an fhéile fáilteach agus ionchuimsitheach agus fáiltítear roimh gach
+réimse den tsochaí, tacaíonn muid le gach cineál ceoil agus léiriú ealaíonta, ó cheol ailtéarnach nua-aimseartha na Gaeilge
+go ceol traidisiúnta na tíre seo agus tíortha eile. Léirítear meas ar chultúir eile agus ar shaoirse an chine dhaonna. Mar a
+thug Rónán féin, tabharfar aire faoi leith do mhionlaigh, bíodh siad ina mionlaigh teanga nó ina mionlaigh de bharr a
+gclaonadh gnéasach nó eile agus iad siúd uilig atá faoi bhagairt ar bith. Is mian linn an nasc láidir sin a chruthaigh Rónán
+idir na ceantair Ghaeltachta agus na críocha gafa a spreagadh agus a neartú. Cuirtear béim faoi leith ar imeachtaí a
+fháiltíonn roimh theaghlaigh.and A Music Festival in Holt.</p> </h4>
+      </div>
+</div>
+     
+  <!-- Festival Schedule Start -->
+  <div class="section pt-0">
+    <div class="container">
+
+      <div class="section-title text-center">
+         <br><span class="color-primary family-display">Clár Ceoil na Féile 2024</span>
+
+      </div>
+
+      <div class="andro_lineup style-2">
+
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">Lá 1</h5>
+            <span>20 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>Emma Ní Fhíoruisce & Eve Belle</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>John Spillane</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Breag</b>
+                <span>20:00-21:00</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">lá 2 <br>Príomh stáitse</h5>
+            <span>21 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>Grooveline</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>IMLÉ</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Marcas Mac Conghail</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Súil Amháin + Rob Mulhern</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>The Elephant Brothers</b>
+                <span>20:00-21:00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">lá 2 <br>Stáitse cúl an tí</h5>
+            <span>21 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>ceoltóirí Thoraí</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Ceol ón Úcráin</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Mac F agus Cairde</b>
+                <span>20:00-21:00</span>
+              </div>
+            
+              <div class="andro_lineup-table-row-item">
+                <b>Conor Ó Gallchóir</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Eoghan Ó Ceannabháin</b>
+                <span>20:00-21:00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">Lá 3</h5>
+            <span>21 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>Boss Sound Manifesto</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Na Fíréin</b>
+                <span>20:00-21:00</span>
+              </div>
+             
+              <div class="andro_lineup-table-row-item">
+                <b>Huartan</b>
+                <span>20:00-21:00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+
+    </div>
+    <div class="spacer white-bg"></div>
+  </div>
+  <!-- Festival Schedule end -->
+  
+    <!-- Ceardlann -->
+  <div class="section pt-0">
+    <div class="container">
+
+      <div class="section-title text-center">
+         <br><span class="color-primary family-display">Ceardlanna agus imeachtaí na Féile</span>
+
+      </div>
+
+      <div class="andro_lineup style-2">
+
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">Lá 1</h5>
+            <span>20 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>Aifreann</b>
+                <span>20:00-21:00</span>
+              </div>
+             
+              <div class="andro_lineup-table-row-item">
+                <b>Léacht na féile - Le aoichainteoir </b>
+                <span>20:00-21:00</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">lá 2 <br>Aonad 1</h5>
+            <span>21 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>Cath na mBannaí</b>
+                <span>20:00-21:00</span>
+              </div>
+              
+              <div class="andro_lineup-table-row-item">
+                <b>Ceardlann Ealaíne Sráide</b>
+                <span>20:00-21:00</span>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">lá 2 <br>Aonad 2</h5>
+            <span>21 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>Filíocht béil ón Úcráin,an Phailistín agus Éireann</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Cór Dorn San Aer Le Doiminic Mac Giolla Bhríde</b>
+                <span>20:00-21:00</span>
+              </div>
+              
+       
+            </div>
+          </div>
+
+        </div>
+
+        <div class="andro_lineup-item">
+
+          <div class="andro_lineup-title">
+            <h5 class="h3">Lá 3</h5>
+            <span>21 Meán Fómhair 2024</span>
+          </div>
+          <div class="andro_lineup-table">
+            <div class="andro_lineup-table-row">
+              <div class="andro_lineup-table-row-item">
+                <b>Yoga breacadh an lae</b>
+                <span>20:00-21:00</span>
+              </div>
+              <div class="andro_lineup-table-row-item">
+                <b>Preab sa Cheol</b>
+                <span>20:00-21:00</span>
+              </div>
+             
+              <div class="andro_lineup-table-row-item">
+                <b>Lá Teaghlaigh ag Ionad Cois Locha</b>
+                <span>20:00-21:00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+
+    </div>
+    <div class="spacer white-bg"></div>
+  </div>
+  <!-- Festival Schedule end -->
+
+  <!-- partial:partial/__footer_demo_4.html -->
+  <!-- Footer Start -->
+  <footer class="andro_footer style-4  text-center">
+    <div class="container">
+
+      <ul class="andro_footer-socials">
+        <li> <a href="#" class="color-facebook-hover"> <i class="fab fa-facebook-f"></i> Facebook </a> </li>
+        <li> <a href="#" class="color-instagram-hover"> <i class="fab fa-instagram"></i> Instagram </a> </li>
+        <li> <a href="#" class="color-twitter-hover"> <i class="fab fa-twitter"></i> Twitter </a> </li>
+        <li> <a href="#" class="color-soundcloud-hover"> <i class="fab fa-soundcloud"></i> Soundcloud </a> </li>
+      </ul>
+      <p class="m-0"> <a href="#">Dorn San Aer</a> - Copyright 2024 © - www.craiceailte.com</p>
+
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- partial -->
+
+  <!-- partial:../partial/__globalScripts.html -->
+  <script src="assets/js/plugins/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/plugins/popper.min.js"></script>
+  <script src="assets/js/plugins/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/bootstrap-datepicker.min.js"></script>
+  <script src="assets/js/plugins/imagesloaded.min.js"></script>
+  <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+
+  <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+  <script src="assets/js/plugins/jquery.waypoints.min.js"></script>
+  <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+  <script src="assets/js/plugins/jquery.inview.min.js"></script>
+  <script src="assets/js/plugins/jquery.event.move.js"></script>
+  <script src="assets/js/plugins/jquery.nicescroll.min.js"></script>
+
+  <script src="assets/js/plugins/wow.min.js"></script>
+  <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+  <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+
+  <script src="assets/js/plugins/particles.min.js"></script>
+
+  <!-- Template Scripts -->
+  <script src="assets/js/sigma-audioplayer.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <!-- partial -->
+
+</body>
+
+</html>
