@@ -44,6 +44,18 @@ This stylesheet is used for demo 6
   font-size: 60%;
 }
 
+.dsa-fontLarge {
+  font-size: 5rem;
+}
+
+.dsa-fontMedium {
+  font-size: 4rem;
+}
+
+.dsa-fontSmall {
+  font-size: 3rem;
+}
+
 @media(max-width: 768px){
   .section-title .family-display{
     font-size: 50px;
