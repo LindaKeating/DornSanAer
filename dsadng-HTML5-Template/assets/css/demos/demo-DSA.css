@@ -35,6 +35,26 @@ This stylesheet is used for demo 6
   
 }
 
+.dark-bg {
+  background-color: #0b3a4d;
+}
+
+.dsa-textPrimary {
+  color: var(--color-primary);
+}
+
+.dsa-textPuce {
+  color: #f4a0a0;
+}
+
+.dsa-textLilac {
+  color: #a0baf4;
+}
+
+.dsa-textSandy {
+  color: #f4e2a0;
+}
+
 .dsa-Title {
   text-align: center;
   color: var(--color-primary);
@@ -46,14 +66,17 @@ This stylesheet is used for demo 6
 
 .dsa-fontLarge {
   font-size: 5rem;
+  line-height: normal;
 }
 
 .dsa-fontMedium {
   font-size: 4rem;
+  line-height: normal;
 }
 
 .dsa-fontSmall {
   font-size: 3rem;
+  line-height: normal;
 }
 
 @media(max-width: 768px){
