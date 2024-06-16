@@ -54,6 +54,12 @@ This stylesheet is used for demo 6
   z-index: 0;
 }
 
+.dsa-smallTextPrimary {
+  font-family: monospace;
+  font-size: large;
+  color: var(--color-primary);
+}
+
 .dsa-pricingContainerImage1:before {
   background: url(../../img/pricing/CailDorn2.png) 0 0 no-repeat;
 }

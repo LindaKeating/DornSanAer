@@ -5193,8 +5193,8 @@ table .form-control:focus{
 .andro_sponsor{
   margin: 0 0 30px;
   padding: 40px;
-  background-color: #fff;
   text-align: center;
+  align-self: center;
 }
 
 /* 5.17 Custom Image */
