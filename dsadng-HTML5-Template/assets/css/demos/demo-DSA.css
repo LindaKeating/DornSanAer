@@ -104,17 +104,17 @@ This stylesheet is used for demo 6
 
 .dsa-fontLarge {
   font-size: 5rem;
-  line-height: normal;
+  line-height: 5rem;
 }
 
 .dsa-fontMedium {
   font-size: 4rem;
-  line-height: normal;
+  line-height: 4rem;
 }
 
 .dsa-fontSmall {
   font-size: 3rem;
-  line-height: normal;
+  line-height: 3rem;
 }
 
 .dsa-fontLight {
