@@ -12,6 +12,65 @@ This stylesheet is used for demo 6
   src: url("../../fonts/Geomanist-Light.otf");
 }
 
+/*
+  FILTER PRESETS
+*/
+
+.dsa-darkenFilter {
+  filter: brightness(13%) saturate(246%) contrast(57%);
+  -webkit-filter: brightness(13%) saturate(246%) contrast(57%);
+  -moz-filter: brightness(13%) saturate(246%) contrast(57%);
+}
+
+/*
+  END FILTER PRESETS
+*/
+
+.dsa-pricingContainer:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../img/pricing/CailDorn2.png) 0 0 no-repeat;
+  filter: brightness(13%) saturate(246%) contrast(57%);
+  -webkit-filter: brightness(13%) saturate(246%) contrast(57%);
+  -moz-filter: brightness(13%) saturate(246%) contrast(57%);
+  z-index: 0;
+}
+
+.dsa-pricingContainer:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
+  filter: brightness(13%) saturate(246%) contrast(57%);
+  -webkit-filter: brightness(13%) saturate(246%) contrast(57%);
+  -moz-filter: brightness(13%) saturate(246%) contrast(57%);
+  z-index: 0;
+}
+
+.dsa-pricingContainerImage1:before {
+  background: url(../../img/pricing/CailDorn2.png) 0 0 no-repeat;
+}
+
+.dsa-pricingContainerImage2:before {
+  background: url(../../img/pricing/LadDorn1.png) 0 0 no-repeat;
+}
+
+.dsa-pricingContainerImage3:before {
+  background: url(../../img/pricing/LadDorn3.png) 0 0 no-repeat;
+}
+
+.dsa-pricingContent {
+  position: relative;
+  z-index: 1;
+}
+
 :root{
   --family-display: 'Geomanist', cursive;
 
@@ -74,7 +133,10 @@ This stylesheet is used for demo 6
 }
 
 .dsa-textPuce {
-  color: #f4a0a0;
+  color: #F4A0A0;
+  /*background: linear-gradient(to right, #F4A0A0 0%, #F4564A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
 
 .dsa-textLilac {
@@ -86,7 +148,11 @@ This stylesheet is used for demo 6
 }
 
 .dsa-textTeal {
-  color: #20b5c6;
+  color: #20B5C6;
+  /*background: #20B5C6;
+  background: linear-gradient(to right, #20B5C6 0%, #1B98C6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
 
 .dsa-Title {
@@ -126,24 +192,32 @@ This stylesheet is used for demo 6
   opacity: 70%;
 }
 
+.dsa-mobileNavigation {
+  visibility: hidden;
+}
+
 @media(max-width: 768px){
   .section-title .family-display{
-    font-size: 50px;
-    
+    font-size: 50px; 
   }
   
-  .andro_hero.style-4 .andro_hero-item-inner h1{
-  font-size: 50px;
-  font-weight: 400;
-  color:#a8c620;
-}
+  .andro_hero.style-4 .andro_hero-item-inner h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color:#a8c620;
+  }
   
-  
-  
-  
+  .dsa-mobileNavigation {
+    visibility: visible;
+  }
+
+  .dsa-desktopNaviation {
+    visibility: hidden;
+  }
 }
 
 @media(max-width: 420px){
+
   .section-title .family-display{
     font-size: 40px;
   }

@@ -3763,15 +3763,17 @@ table .form-control:focus{
 }
 
 /* 5.5 Pricing */
-.andro_pricing{
+.andro_pricing {
   margin: 60px 0 30px;
   position: relative;
   text-align: center;
   padding: 80px 40px 40px;
 }
+
 .andro_pricing.plan-1{
   background-color: #F355BC;
 }
+
 .andro_pricing.plan-2{
   background-color: #AC63C6;
 }
