@@ -44,6 +44,11 @@ This stylesheet is used for demo 6
   background-color: #0b3a4d;
 }
 
+.white-bg, 
+.bg-light {
+  background-color: #e7ddd2 !important;
+}
+
 .dsa-textPrimary {
   color: var(--color-primary);
 }
@@ -57,7 +62,7 @@ This stylesheet is used for demo 6
 }
 
 .dsa-textSandy {
-  color: #f4e2a0;
+  color: #dfb92e;
 }
 
 .dsa-textTeal {
