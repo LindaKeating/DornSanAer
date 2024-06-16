@@ -44,6 +44,26 @@ This stylesheet is used for demo 6
   background-color: #0b3a4d;
 }
 
+.dsa-fontLight {
+  font-family: "Geomanist-Light" !important;
+}
+
+.dsa-TextCraiceailte {
+  font-family: "Geomanist";
+  background: #B1E211;
+  background: linear-gradient(to right, #B1E211 0%, #16B440 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dsa-opacity70 {
+  opacity: 70%;
+}
+
+.dsa-opacity100 {
+  opacity: 100%;
+}
+
 .white-bg, 
 .bg-light {
   background-color: #e7ddd2 !important;
@@ -76,6 +96,10 @@ This stylesheet is used for demo 6
 
 .dsa-subTitle {
   font-size: 60%;
+}
+
+.dsa-SectionTitle {
+  max-width: unset;
 }
 
 .dsa-fontLarge {
