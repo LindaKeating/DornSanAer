@@ -24,6 +24,7 @@ This stylesheet is used for demo 6
   --color-primary-hover: #D4AE16;
   --color-primary-hue: #FFFAE8;
   --color-primary-rgb: 255, 209, 25;
+  --color-darkText: #0b3a4d;
 
   --color-bg-light: #e7ddd2;
 
@@ -51,7 +52,7 @@ This stylesheet is used for demo 6
 
 
 .dsa-pricingContainer {
-  background-color: #0b3a4d !important;
+  background-color: var(--color-darkText) !important;
 }
 
 .dsa-pricingContainer.andro_pricing.style-2 .andro_pricing-plan {
@@ -63,9 +64,15 @@ This stylesheet is used for demo 6
 }
 
 .dsa-smallTextPrimary {
-  font-family: monospace;
-  font-size: large;
+  font-size: 2rem;
   color: var(--color-primary);
+  opacity: 70%;
+}
+
+.dsa-smallTextSecondary {
+  font-size: 2rem;
+  color: var(--color-darkText);
+  opacity: 70%;
 }
 
 .dsa-pricingContent {
@@ -106,7 +113,7 @@ This stylesheet is used for demo 6
 }
 
 .dsa-galleryItem .andro_gallery-content span {
-  background-color: var(--color-primary-darker);
+  background-color: var(--color-darkText);
   padding: 3px;
 }
 
@@ -117,7 +124,7 @@ This stylesheet is used for demo 6
 }
 
 .dark-bg {
-  background-color: #0b3a4d;
+  background-color: var(--color-darkText);
 }
 
 .dsa-fontLight {
