@@ -117,7 +117,20 @@ This stylesheet is used for demo 6
   padding: 3px;
 }
 
-.dsa-galleryItem .andro_gallery-content h6, 
+.dsa-galleryItemTitle {
+  color: var(--color-primary);
+}
+
+.dsa-galleryItem .andro_gallery {
+  height: 100%;
+}
+
+.dsa-galleryItem .andro_gallery-content h6 {
+  color: var(--color-primary);
+  font-family: var(--family-display);
+}
+
+
 .dsa-galleryItem .andro_gallery-content p, 
 .dsa-galleryItem .andro_gallery-content i {
   color: var(--bs-white);
