@@ -26,50 +26,16 @@ This stylesheet is used for demo 6
   END FILTER PRESETS
 */
 
-.dsa-pricingContainer:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: url(../../img/pricing/CailDorn2.png) 0 0 no-repeat;
-  filter: brightness(13%) saturate(246%) contrast(57%);
-  -webkit-filter: brightness(13%) saturate(246%) contrast(57%);
-  -moz-filter: brightness(13%) saturate(246%) contrast(57%);
-  z-index: 0;
-}
 
-.dsa-pricingContainer:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  
-  filter: brightness(13%) saturate(246%) contrast(57%);
-  -webkit-filter: brightness(13%) saturate(246%) contrast(57%);
-  -moz-filter: brightness(13%) saturate(246%) contrast(57%);
-  z-index: 0;
+
+.dsa-pricingContainer {
+  background-color: #0b3a4d !important;
 }
 
 .dsa-smallTextPrimary {
   font-family: monospace;
   font-size: large;
   color: var(--color-primary);
-}
-
-.dsa-pricingContainerImage1:before {
-  background: url(../../img/pricing/CailDorn2.png) 0 0 no-repeat;
-}
-
-.dsa-pricingContainerImage2:before {
-  background: url(../../img/pricing/LadDorn1.png) 0 0 no-repeat;
-}
-
-.dsa-pricingContainerImage3:before {
-  background: url(../../img/pricing/LadDorn3.png) 0 0 no-repeat;
 }
 
 .dsa-pricingContent {
@@ -103,6 +69,27 @@ This stylesheet is used for demo 6
 .andro_hero.style-4 .andro_hero-item-inner h1{
   font-size: 70px;
   
+}
+
+.dark-blue-sepiaFilter {
+  filter: url('#dark-blue-sepia');
+}
+
+.warm-seaFilter {
+  filter: url('#warm-sea');
+}
+
+.spring-grassFilter {
+  filter: url('#spring-grass') brightness(0.8);
+}
+
+.andro_gallery.style-2:hover img.spring-grassFilter {
+  filter: none;
+}
+
+.dsa-galleryItem .andro_gallery-content span {
+  background-color: var(--color-primary);
+  padding: 3px;
 }
 
 .dark-bg {

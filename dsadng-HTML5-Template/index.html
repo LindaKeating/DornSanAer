@@ -28,6 +28,7 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+
 </head>
 
 <body class="dark-bg">
@@ -128,7 +129,7 @@
   <!-- partial -->
 
   <!-- Hero Start -->
-  <div class="andro_hero style-4">
+  <div class="andro_hero style-4 spring-grassFilter">
     <div class="swiper-container andro_hero-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -187,26 +188,8 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <div class="andro_pricing dsa-pricingContainer dsa-pricingContainerImage1 style-2">
-            <div class="andro_pricing-content dsa-pricingContent">
-              <div class="andro_pricing-price-wrap">
-                <span class="andro_pricing-currency">€</span>
-                <span class="andro_pricing-price">70</span>
-              </div>
-              <span class="andro_pricing-plan">Ticéad Deireadh Seachtaine</span>
-              <ul>
-                <li>Cead isteach 3 lá</li>
-                <li>Bannaí Ceoil agus Ceardlanna</li>
-                <li>Craic agus Spraoi</li>
-              </ul>
-              <a href="#" class="button primary">Faigh Ticéad</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="andro_pricing dsa-pricingContainer dsa-pricingContainerImage2 style-2" style="background-image: url(assets/img/pricing/LadDorn1.png)">
-            <div class="andro_pricing-content dsa-pricingContent">
+          <div class="andro_pricing dsa-pricingContainer style-2">
+            <div class="andro_pricing-content ">
               <div class="andro_pricing-price-wrap">
                 <span class="andro_pricing-currency">€</span>
                 <span class="andro_pricing-price">30</span>
@@ -217,13 +200,38 @@
                 <li>Bannaí Ceoil agus Ceardlanna</li>
                 <li>Craic agus Spraoi</li>
               </ul>
-              <a href="#" class="button primary">Faigh Ticéad</a>
+              <a 
+                href="https://ti.to/dorn-san-aer/dorn-san-aer-2024" 
+                class="button primary"
+                target="_blank">Faigh Ticéad</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="andro_pricing dsa-pricingContainer dsa-pricingContainerImage3 style-2" style="background-image: url(assets/img/pricing/LadDorn3.png)">
-            <div class="andro_pricing-content dsa-pricingContent">
+          <div class="andro_pricing dsa-pricingContainer  style-2">
+            <div class="andro_pricing-content ">
+              <div class="andro_pricing-price-wrap">
+                <span class="andro_pricing-currency">€</span>
+                <span class="andro_pricing-price">70</span>
+              </div>
+              <span class="andro_pricing-plan">Ticéad Deireadh Seachtaine</span>
+              <ul>
+                <li>Cead isteach 3 lá</li>
+                <li>Bannaí Ceoil agus Ceardlanna</li>
+                <li>Craic agus Spraoi</li>
+              </ul>
+              <a 
+                href="https://ti.to/dorn-san-aer/dorn-san-aer-2024" 
+                class="button primary"
+                target="_blank">Faigh Ticéad</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-4">
+          <div class="andro_pricing style-2 dsa-pricingContainer ">
+            <div class="andro_pricing-content ">
               <div class="andro_pricing-price-wrap">
                 <span class="andro_pricing-currency">€</span>
                 <span class="andro_pricing-price">100</span>
@@ -234,7 +242,10 @@
                 <li>Banna Ceoil agus Ceardlanna</li>
                 <li>Craic agus Spraoi</li>
               </ul>
-              <a href="#" class="button primary">Faigh Ticéad</a>
+              <a 
+                href="https://ti.to/dorn-san-aer/dorn-san-aer-2024" 
+                class="button primary"
+                target="_blank">Faigh Ticéad</a>
             </div>
           </div>
         </div>
@@ -295,93 +306,84 @@
     <!-- Gallery Start -->
     <div class="section p-0">
       <div class="row gx-0">
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/1.jpg" class="mb-0 andro_img-popup andro_gallery style-2">
-            <img class="andro_img-cover" src="assets/img/gallery/md/1.jpg" alt="gallery">
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/1.jpg" class="mb-0 andro_img-popup andro_gallery style-2 mb-0">
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/md/1.jpg" alt="gallery">
             <div class="d-none d-lg-flex andro_gallery-content">
-              <p>Huartan</p>
-              <h6 class="h4">Nuatheachtaí na Bliana – Gradam Rónáin Mhic Aodha Bhuí</h6>
+              <span><h6 class="h4 dsa-galleryItemTitle">Huartan</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">Nuatheachtaí na Bliana – Gradam Rónáin Mhic Aodha Bhuí</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/2.jpg" class="andro_img-popup andro_gallery">
-            <img class="andro_img-cover" src="assets/img/gallery/md/2.jpg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">Grooveline</h6>
-              <p>Damhsa, Damhsa, Damhsa</p>
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/2.jpg" class="andro_img-popup andro_gallery style-2 mb-0">
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/md/2.jpg" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">Grooveline</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">ceol bríomhar funk</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <a href="assets/img/gallery/md/3.jpg" class="andro_img-popup andro_gallery">
-            <img class="andro_img-cover" src="assets/img/gallery/md/3.jpg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">Súil Amháin</h6>
-              <p></p>
+        <div class="col-lg-3 col-md-6 col-sm-12 dsa-galleryItem">
+          <a href="assets/img/gallery/md/3.jpg" class="andro_img-popup andro_gallery style-2 mb-0">
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/md/3.jpg" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">Súil Amháin</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">Hip Hop / rappálaí</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/4.jpg" class="andro_img-popup andro_gallery">
-            <img class="andro_img-cover" src="assets/img/gallery/md/4.jpg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">IMLÉ</h6>
-              <p>Ag spraoi, Ceol, Damhsa</p>
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/4.jpg" class="andro_img-popup andro_gallery style-2 mb-0">
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/md/4.jpg" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">IMLÉ</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">comharghrúpa eicléictiúil</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery">
-            <img class="andro_img-cover" src="assets/img/gallery/JohnSpillane.jpg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">John Spillane</h6>
-              <p>tagline bla bla Eoghan</p>
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery style-2 mb-0">
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/JohnSpillane.jpg" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">John Spillane</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">An spalladóir fánach</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery"><!--TODO: link to band page-->
-            <img class="andro_img-cover" src="assets/img/gallery/bernadette-devlin-mcaliskey-40f9f784-c756-4e4c-879e-2398a11c205-resize-750.jpeg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">Bernadette McAliskey</h6>
-              <p>tagline bla bla Eoghan</p><!--TODO: Eoghan -->
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery style-2 mb-0"><!-- Link to band page -->
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/Breag.jpg" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">Bréag</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">reggae, ska & rac-cheol na réabhlóide</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery"><!-- Link to band page -->
-            <img class="andro_img-cover" src="assets/img/gallery/Breag.jpg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">Bréag</h6>
-              <p>tagline bla bla Eoghan</p><!--TODO: Eoghan -->
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery style-2 mb-0"><!-- Link to band page -->
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/BossSoundManifesto.jpg" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">Boss Sound Manifesto</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">reggae, ska, two-tone</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery"><!-- Link to band page -->
-            <img class="andro_img-cover" src="assets/img/gallery/BossSoundManifesto.jpg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">Boss Sound Manifesto</h6>
-              <p>tagline bla bla Eoghan</p><!--TODO: Eoghan -->
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery style-2 mb-0"><!-- Link to band page -->
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/ RoisinChambers.webp" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">Róisín Chambers</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">sean nós</p></span>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery"><!-- Link to band page -->
-            <img class="andro_img-cover" src="assets/img/gallery/ RoisinChambers.webp" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">Róisín Chambers</h6>
-              <p>tagline bla bla Eoghan</p><!--TODO: Eoghan -->
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery"><!-- Link to band page -->
-            <img class="andro_img-cover" src="assets/img/gallery/eve-belle.jpg" alt="gallery">
-            <div class="andro_gallery-content">
-              <h6 class="h3">Eve Belle</h6>
-              <p>tagline bla bla Eoghan</p><!--TODO: Eoghan -->
+        <div class="col-lg-3 col-md-6 col-sm-6 dsa-galleryItem">
+          <a href="assets/img/gallery/md/5.jpg" class="andro_gallery style-2 mb-0"><!-- Link to band page -->
+            <img class="andro_img-cover spring-grassFilter" src="assets/img/gallery/eve-belle.jpg" alt="gallery">
+            <div class="d-none d-lg-flex andro_gallery-content">
+              <span><h6 class="h4 dsa-galleryItemTitle">Eve Belle</h6></span>
+              <span><p class="dsa-galleryItemSubtitle">bla bla Eoghan</p></span>
             </div>
           </a>
         </div>
@@ -440,7 +442,6 @@
       <div class="section-title text-center">
         <h3 class="text-uppercase"><span class="fw-400">Urraitheoirí</span> na Féile</h3>
       </div>
-
       <div class="row justify-content-center">
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
           <div class="andro_sponsor">
@@ -511,9 +512,366 @@
   <!-- Template Scripts -->
   <script src="assets/js/sigma-audioplayer.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/filters.js"></script>
 
   <!-- partial -->
 
 </body>
 
 </html>
+
+<svg id="svgfilters" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="teal-white" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.03 1"/>
+        <feFuncG type="table" tableValues="0.57 1"/>
+        <feFuncB type="table" tableValues="0.49 1"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="teal-lightgreen" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.03 0.8"/>
+        <feFuncG type="table" tableValues="0.57 1"/>
+        <feFuncB type="table" tableValues="0.49 0.53"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.26 0.95"/>
+        <feFuncG type="table" tableValues="0.19 0.78"/>
+        <feFuncB type="table" tableValues="0.11 0.59"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="purple-sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.43 0.97"/>
+        <feFuncG type="table" tableValues="0.06 0.88"/>
+        <feFuncB type="table" tableValues="0.37 0.79"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="cherry-icecream" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.84 1"/>
+        <feFuncG type="table" tableValues="0.05 0.94"/>
+        <feFuncB type="table" tableValues="0.37 0.61"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="blackCurrant-and-mint" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.75 0.53"/>
+        <feFuncG type="table" tableValues="0.25 0.97"/>
+        <feFuncB type="table" tableValues="0.64 0.77"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="sea" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.02 0.13 0.8"/>
+        <feFuncG type="table" tableValues="0.02 0.47 0.97"/>
+        <feFuncB type="table" tableValues="0.26 0.52 0.48"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="warm-sea" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.29 0.01 0.97"/>
+        <feFuncG type="table" tableValues="0.12 0.52 0.94"/>
+        <feFuncB type="table" tableValues="0.37 0.59 0.47"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="spring-grass" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0 0.38 0.92"/>
+        <feFuncG type="table" tableValues="0.5 0.8 1"/>
+        <feFuncB type="table" tableValues="0.5 0.56 0.74"/>
+        <feFuncA type="table" tableValues="0 0.4"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="red-sunset-with-purple" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.52 0.86 0.97"/>
+        <feFuncG type="table" tableValues="0 0.08 0.81"/>
+        <feFuncB type="table" tableValues="0.51 0.24 0.05"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="red-sunset" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.27 0.86 0.97"/>
+        <feFuncG type="table" tableValues="0.01 0.08 0.81"/>
+        <feFuncB type="table" tableValues="0.02 0.24 0.05"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="gold-sunset" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.27 0.86 1"/>
+        <feFuncG type="table" tableValues="0.01 0.31 0.95"/>
+        <feFuncB type="table" tableValues="0.02 0.02 0.02"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="dark-crimson-sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.01 0.52 0.97"/>
+        <feFuncG type="table" tableValues="0 0.05 0.81"/>
+        <feFuncB type="table" tableValues="0.02 0.29 0.61"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="dark-blue-sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.29 0.15 0.97"/>
+        <feFuncG type="table" tableValues="0.04 0.39 0.93"/>
+        <feFuncB type="table" tableValues="0.32 0.52 0.73"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="dark-green-sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.25 0.39 0.96"/>
+        <feFuncG type="table" tableValues="0.16 0.52 0.97"/>
+        <feFuncB type="table" tableValues="0.06 0.39 0.78"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="x-rays" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.98 0.3 0.25"/>
+        <feFuncG type="table" tableValues="1 0.44 0.24"/>
+        <feFuncB type="table" tableValues="0.91 0.62 0.39"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="warm-x-rays" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.98 0.75 0.51"/>
+        <feFuncG type="table" tableValues="1 0.45 0.11"/>
+        <feFuncB type="table" tableValues="0.91 0.39 0.29"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="golden-x-rays" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.98 1 0.94"/>
+        <feFuncG type="table" tableValues="1 0.98 0.44"/>
+        <feFuncB type="table" tableValues="0.91 0.43 0.02"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="purple-warm" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.52 0.97 1"/>
+        <feFuncG type="table" tableValues="0 0.62 1"/>
+        <feFuncB type="table" tableValues="0.51 0.39 0.89"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="green-pink-acid" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="1 0.98 0.1"/>
+        <feFuncG type="table" tableValues="0.17 1 0.82"/>
+        <feFuncB type="table" tableValues="0.7 0.84 0.67"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="yellow-blue-acid" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+        <feFuncR type="table" tableValues="0.01 0.97 0.89"/>
+        <feFuncG type="table" tableValues="0.38 1 1"/>
+        <feFuncB type="table" tableValues="1 0.89 0.01"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence baseFrequency="0.01 0.4" result="NOISE" numOctaves="2" />
+      <feDisplacementMap in="SourceGraphic" in2="NOISE" scale="20" xChannelSelector="R" yChannelSelector="R"></feDisplacementMap>
+    </filter>
+    <filter id="squiggly-0">
+      <feTurbulence id="turbulence1" baseFrequency="0.02" numOctaves="3" result="noise" seed="0" />
+      <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+    </filter>
+    <filter id="squiggly-1">
+      <feTurbulence id="turbulence2" baseFrequency="0.02" numOctaves="3" result="noise" seed="1" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+    </filter>
+    <filter id="squiggly-2">
+      <feTurbulence id="turbulence3" baseFrequency="0.02" numOctaves="3" result="noise" seed="2" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+    </filter>
+    <filter id="squiggly-3">
+      <feTurbulence id="turbulence4" baseFrequency="0.02" numOctaves="3" result="noise" seed="3" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+    </filter>
+    <filter id="squiggly-4">
+      <feTurbulence id="turbulence5" baseFrequency="0.02" numOctaves="3" result="noise" seed="4" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+    </filter>
+    <filter id="posterize">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .5 1" />
+      </feComponentTransfer>
+    </filter>
+    <filter id="dancing" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+      <feMorphology operator="dilate" radius="4 4" in="SourceAlpha" result="morphology"/>
+      <feFlood flood-color="#30597E" flood-opacity="1" result="flood"/>
+      <feComposite in="flood" in2="morphology" operator="in" result="composite"/>
+      <feComposite in="composite" in2="SourceAlpha" operator="out" result="composite1"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.01 0.02" numOctaves="1" seed="0" stitchTiles="stitch" result="turbulence"/>
+      <feDisplacementMap in="composite1" in2="turbulence" scale="17" xChannelSelector="A" yChannelSelector="A" result="displacementMap"/>
+      <feMerge result="merge">
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="displacementMap"/>
+        </feMerge>
+    </filter>
+    <filter id="drops" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feTurbulence type="turbulence" baseFrequency="0.05 0.05" numOctaves="1" seed="3" stitchTiles="stitch" result="turbulence"/>
+      <feComposite in="turbulence" in2="SourceGraphic" operator="in" result="composite"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 25 -2" in="composite" result="colormatrix"/>
+      <feComposite in="SourceGraphic" in2="colormatrix" operator="in" result="composite1"/>
+      <feGaussianBlur stdDeviation="3 3" in="composite1" result="blur"/>
+      <feSpecularLighting surfaceScale="2" specularConstant="1" specularExponent="20" lighting-color="#fffffd" in="blur" result="specularLighting">
+        <feDistantLight azimuth="-90" elevation="150"/>
+      </feSpecularLighting>
+      <feSpecularLighting surfaceScale="2" specularConstant="1" specularExponent="20" lighting-color="#cae1fe" in="blur" result="specularLighting1">
+        <feDistantLight azimuth="90" elevation="150"/>
+      </feSpecularLighting>
+      <feSpecularLighting surfaceScale="7" specularConstant="1" specularExponent="35" lighting-color="#fcfeff" in="blur" result="specularLighting2">
+        <fePointLight x="150" y="50" z="300"/>
+      </feSpecularLighting>
+      <feComposite in="specularLighting" in2="composite1" operator="in" result="composite2"/>
+      <feComposite in="specularLighting2" in2="composite1" operator="in" result="composite3"/>
+      <feComposite in="specularLighting1" in2="composite1" operator="in" result="composite4"/>
+      <feBlend mode="multiply" in="composite4" in2="SourceGraphic" result="blend"/>
+      <feBlend in="composite2" in2="blend" result="blend1"/>
+      <feBlend in="composite3" in2="blend1" result="blend2"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence baseFrequency="0.60,0.90" result="colorNoise" />
+      <feColorMatrix in="colorNoise" type="matrix" values=".33 .33 .33 0 0 .33 .33 .33 0 0 .33 .33 .33 0 0 0 0 0 1 0"/>
+      <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
+      <feBlend in="SourceGraphic" in2="monoNoise" mode="multiply" />
+    </filter>
+    <filter id="fluffy" x="0%" y="0%" width="100%" height="100%">
+       <feTurbulence type="fractalNoise" baseFrequency="0.04" result="fluffyNoise" numOctaves="5" />
+      <feColorMatrix in="fluffyNoise" type="matrix" values=".33 .33 .33 0 0 .33 .33 .33 0 0 .33 .33 .33 0 0 0 0 0 1 0"/>
+      <feComposite operator="in" in2="SourceGraphic" result="monoFluffyNoise"/>
+      <feBlend in="SourceGraphic" in2="monoFluffyNoise" mode="screen" />
+    </filter>
+  </defs>
+</svg>
