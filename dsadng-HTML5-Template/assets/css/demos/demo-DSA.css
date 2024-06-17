@@ -12,6 +12,28 @@ This stylesheet is used for demo 6
   src: url("../../fonts/Geomanist-Light.otf");
 }
 
+:root{
+  --family-display: 'Geomanist', cursive;
+  --family-body: 'Geomanist-Light';
+
+  --bs-white: #e7ddd2;
+
+  --color-primary: #a8c620;
+  --color-primary-darker: #6e821a;
+  --color-secondary: #16b440;
+  --color-primary-hover: #D4AE16;
+  --color-primary-hue: #FFFAE8;
+  --color-primary-rgb: 255, 209, 25;
+
+  --color-bg-light: #e7ddd2;
+
+  --logo-size-lg: 380px;
+  --logo-size-md: 340px;
+  --logo-size-sm: 120px;
+
+  --bs-gradient: linear-gradient(to right, #a8c620 0%, #16B440 100%);
+}
+
 /*
   FILTER PRESETS
 */
@@ -32,6 +54,14 @@ This stylesheet is used for demo 6
   background-color: #0b3a4d !important;
 }
 
+.dsa-pricingContainer.andro_pricing.style-2 .andro_pricing-plan {
+  font-family: var(--family-display);
+}
+
+.dsa-pricingContainer .andro_pricing-content {
+  color: var(--bs-white);
+}
+
 .dsa-smallTextPrimary {
   font-family: monospace;
   font-size: large;
@@ -43,23 +73,11 @@ This stylesheet is used for demo 6
   z-index: 1;
 }
 
-:root{
-  --family-display: 'Geomanist', cursive;
 
-  --color-primary: #a8c620;
-  --color-primary-hover: #D4AE16;
-  --color-primary-hue: #FFFAE8;
-  --color-primary-rgb: 255, 209, 25;
-
-  --color-bg-light: #FBFBFB;
-
-  --logo-size-lg: 380px;
-  --logo-size-md: 340px;
-  --logo-size-sm: 120px;
-}
 
 .button.primary{
-  color: var(--color-secondary);
+  color: var(--bs-white);
+  background-image: var(--bs-gradient);
 }
 
 .section-title .family-display{
@@ -88,8 +106,14 @@ This stylesheet is used for demo 6
 }
 
 .dsa-galleryItem .andro_gallery-content span {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-darker);
   padding: 3px;
+}
+
+.dsa-galleryItem .andro_gallery-content h6, 
+.dsa-galleryItem .andro_gallery-content p, 
+.dsa-galleryItem .andro_gallery-content i {
+  color: var(--bs-white);
 }
 
 .dark-bg {
@@ -102,8 +126,8 @@ This stylesheet is used for demo 6
 
 .dsa-TextCraiceailte {
   font-family: "Geomanist";
-  background: #B1E211;
-  background: linear-gradient(to right, #B1E211 0%, #16B440 100%);
+  background: var(--color-primary);
+  background: linear-gradient(to right, var(--color-primary) 0%, var(--color-secondary) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -118,7 +142,7 @@ This stylesheet is used for demo 6
 
 .white-bg, 
 .bg-light {
-  background-color: #e7ddd2 !important;
+  background-color: var(--bs-white)!important;
 }
 
 .dsa-textPrimary {
@@ -126,22 +150,22 @@ This stylesheet is used for demo 6
 }
 
 .dsa-textPuce {
-  color: #F4A0A0;
+  color: var(--color-primary);
   /*background: linear-gradient(to right, #F4A0A0 0%, #F4564A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
 }
 
 .dsa-textLilac {
-  color: #a0baf4;
+  color: var(--color-primary);
 }
 
 .dsa-textSandy {
-  color: #dfb92e;
+  color: #16b440;
 }
 
 .dsa-textTeal {
-  color: #20B5C6;
+  color: #16b440;
   /*background: #20B5C6;
   background: linear-gradient(to right, #20B5C6 0%, #1B98C6 100%);
   -webkit-background-clip: text;
