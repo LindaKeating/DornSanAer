@@ -17,14 +17,17 @@ This stylesheet is used for demo 6
   --family-body: 'Geomanist-Light';
 
   --bs-white: #e7ddd2;
-
+  --color-brand: #a8c620;
   --color-primary: #a8c620;
   --color-primary-darker: #6e821a;
-  --color-secondary: #16b440;
+  --color-secondary: #d054ad;
   --color-primary-hover: #D4AE16;
   --color-primary-hue: #FFFAE8;
   --color-primary-rgb: 255, 209, 25;
-  --color-darkText: #0b3a4d;
+  --color-darkText: #253d47;
+  --color-lightText: #e7ddd2;
+  --color-body: #e7ddd2;
+  --color-headings: #96abae;
 
   --color-bg-light: #e7ddd2;
 
@@ -32,7 +35,7 @@ This stylesheet is used for demo 6
   --logo-size-md: 340px;
   --logo-size-sm: 120px;
 
-  --bs-gradient: linear-gradient(to right, #a8c620 0%, #16B440 100%);
+  --bs-gradient: linear-gradient(to right, #a8c620 0%, #86bc21 100%);
 }
 
 /*
@@ -55,7 +58,29 @@ This stylesheet is used for demo 6
   background-color: var(--color-darkText) !important;
 }
 
-.dsa-pricingContainer.andro_pricing.style-2 .andro_pricing-plan {
+.dsa-pricingContainer.andro_pricing {
+  text-align: left;
+  height: 100%;
+}
+
+.dsa-pricingContainer .andro_pricing-plan {
+  text-transform: none;
+  font-size: 2rem;
+}
+
+.dsa-pricingContainer.dsa-pricingType {
+  width: 100%;
+}
+
+.dsa-pricingContainer .andro_pricing-currency {
+  color: var(--color-lightText) !important;
+}
+
+.dsa-pricingContainer.andro_pricing.style-2 ul li::before {
+  color: var(--color-brand);
+}
+
+.dsa-pricingContainer.andro_pricing .andro_pricing-plan {
   font-family: var(--family-display);
 }
 
@@ -65,7 +90,7 @@ This stylesheet is used for demo 6
 
 .dsa-smallTextPrimary {
   font-size: 2rem;
-  color: var(--color-primary);
+  color: var(--color-lightText);
   opacity: 70%;
 }
 
@@ -136,8 +161,29 @@ This stylesheet is used for demo 6
   color: var(--bs-white);
 }
 
-.dark-bg {
-  background-color: var(--color-darkText);
+.dark-bg,
+.bg-dark {
+  background-color: var(--color-darkText) !important;
+}
+
+.bg-dark .dsa-OrdReatha span:nth-child(odd),
+.dark-bg .dsa-OrdReatha span:nth-child(odd) {
+  color: var(--color-primary);
+}
+
+.bg-dark .dsa-OrdReatha span:nth-child(even),
+.dark-bg .dsa-OrdReatha span:nth-child(even) {
+  color: var(--color-lightText);
+}
+
+.bg-light .dsa-OrdReatha span:nth-child(odd),
+.light-bg .dsa-OrdReatha span:nth-child(odd) {
+  color: var(--color-darkText);
+}
+
+.bg-light .dsa-OrdReatha span:nth-child(even),
+.light-bg .dsa-OrdReatha span:nth-child(even) {
+  color: var(--color-secondary);
 }
 
 .dsa-fontLight {
@@ -147,7 +193,7 @@ This stylesheet is used for demo 6
 .dsa-TextCraiceailte {
   font-family: "Geomanist";
   background: var(--color-primary);
-  background: linear-gradient(to right, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background: var(--bs-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -163,6 +209,11 @@ This stylesheet is used for demo 6
 .white-bg, 
 .bg-light {
   background-color: var(--bs-white)!important;
+}
+
+.white-bg .dsa-Title,
+.bg-light .dsa-Title {
+  color: var(--color-darkText);
 }
 
 .dsa-textPrimary {
@@ -194,7 +245,7 @@ This stylesheet is used for demo 6
 
 .dsa-Title {
   text-align: center;
-  color: var(--color-primary);
+  color: var(--color-lightText);
 }
 
 .dsa-subTitle {
@@ -230,7 +281,11 @@ This stylesheet is used for demo 6
 }
 
 .dsa-mobileNavigation {
-  visibility: hidden;
+  display: none;
+}
+
+.dsa-Navigation.andro_header-navigation > ul li a {
+  color: var(--color-lightText);
 }
 
 @media(max-width: 768px){
@@ -261,11 +316,11 @@ This stylesheet is used for demo 6
   }
   
   .dsa-mobileNavigation {
-    visibility: visible;
+    display: list-item;
   }
 
   .dsa-desktopNaviation {
-    visibility: hidden;
+    display: none;
   }
 }
 
