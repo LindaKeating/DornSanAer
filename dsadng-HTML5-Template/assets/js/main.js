@@ -273,7 +273,7 @@
   /*-------------------------------------------------------------------------------
   Banner Slider
   -------------------------------------------------------------------------------*/
-
+/*
   const bannerSlider = new Swiper('.andro_hero-slider', {
     grabCursor: true,
     centeredSlides: true,
@@ -286,12 +286,12 @@
       nextEl: '.andro_hero-slider .swiper-button-next',
       prevEl: '.andro_hero-slider .swiper-button-prev'
     }
-  });
-
+  }); 
+*/
   /*-------------------------------------------------------------------------------
   Coverflow Slider (Playlist home 1)
   -------------------------------------------------------------------------------*/
-  const coverflowSlider = new Swiper('.coverflow-slider', {
+  /* const coverflowSlider = new Swiper('.coverflow-slider', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
@@ -322,11 +322,13 @@
   $(".andro_music-player-forward").on('click', function(e) {
     e.preventDefault();
     coverflowSlider.slideNext();
-  });
+  }); */
 
   /*-------------------------------------------------------------------------------
   Centered Slider (Blog home 3)
   -------------------------------------------------------------------------------*/
+  
+  /*
   const centeredSlider = new Swiper('.centered-slider', {
     grabCursor: true,
     centeredSlides: true,
@@ -344,11 +346,12 @@
         slidesPerView: 1.8,
       },
     }
-  });
+  });*/
 
   /*-------------------------------------------------------------------------------
   Full Width Slider (Arists home 2)
   -------------------------------------------------------------------------------*/
+  /*
   const fullWidthSlider = new Swiper('.fw-slider', {
     grabCursor: true,
     spaceBetween: 15,
@@ -367,11 +370,12 @@
         slidesPerView: 4
       }
     }
-  });
+  }); */
 
   /*-------------------------------------------------------------------------------
   Single Slider (Blog details sidebar)
   -------------------------------------------------------------------------------*/
+  /*
   const singleSlider = new Swiper('.single-slider', {
     grabCursor: true,
     spaceBetween: 0,
@@ -382,11 +386,12 @@
       el: '.swiper-pagination',
       type: 'bullets'
     }
-  });
+  });*/
 
   /*-------------------------------------------------------------------------------
   Vertical Slider (Artists home 1)
   -------------------------------------------------------------------------------*/
+  /*
   const verticalSlider = new Swiper('.vertical-slider .swiper-container', {
     slidesPerView: 1,
     loop: false,
@@ -405,7 +410,7 @@
         $('.vertical-slider-current').html(sw.activeIndex + 1);
       }
     }
-  });
+  }); */
 
   /*-------------------------------------------------------------------------------
   Window Events
