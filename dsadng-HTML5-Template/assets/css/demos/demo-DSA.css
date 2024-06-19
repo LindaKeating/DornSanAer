@@ -188,10 +188,7 @@ This stylesheet is used for demo 6
 
 .dsa-TextCraiceailte {
   font-family: "Geomanist";
-  background: none;
-  color: var(--color-brand) !important;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--color-brand);
 }
 
 .dsa-opacity70 {
@@ -240,10 +237,6 @@ This stylesheet is used for demo 6
 
 .dsa-textTeal {
   color: #16b440;
-  /*background: #20B5C6;
-  background: linear-gradient(to right, #20B5C6 0%, #1B98C6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
 }
 
 .dsa-Title {
@@ -375,16 +368,5 @@ This stylesheet is used for demo 6
   font-size: 40px;
   font-weight: 400;
   color:#a8c620;
-  }
-}
-
-@media(prefers-color-scheme: dark ) {
-  .dsa-TextCraiceailte {
-    font-family: "Geomanist";
-    background: none !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: unset !important;
-    color: var(--color-primary) !important;
-    
   }
 }
