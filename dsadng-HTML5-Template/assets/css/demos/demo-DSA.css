@@ -378,12 +378,13 @@ This stylesheet is used for demo 6
   }
 }
 
-@media (prefers-color-scheme: dark ) {
+@media(prefers-color-scheme: dark ) {
   .dsa-TextCraiceailte {
     font-family: "Geomanist";
-    background: var(--bs-gradient) !important;
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
     color: var(--color-primary) !important;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
   }
 }
