@@ -188,8 +188,8 @@ This stylesheet is used for demo 6
 
 .dsa-TextCraiceailte {
   font-family: "Geomanist";
-  background: var(--color-primary);
-  background: var(--bs-gradient) !important;
+  background: none;
+  color: var(--color-brand) !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
