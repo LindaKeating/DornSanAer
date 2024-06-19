@@ -189,7 +189,7 @@ This stylesheet is used for demo 6
 .dsa-TextCraiceailte {
   font-family: "Geomanist";
   background: var(--color-primary);
-  background: var(--bs-gradient);
+  background: var(--bs-gradient) !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -381,9 +381,8 @@ This stylesheet is used for demo 6
 @media (prefers-color-scheme: dark ) {
   .dsa-TextCraiceailte {
     font-family: "Geomanist";
-    background: var(--color-primary);
-    background: var(--bs-gradient);
-    color: var(--color-primary);
+    background: var(--bs-gradient) !important;
+    color: var(--color-primary) !important;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
