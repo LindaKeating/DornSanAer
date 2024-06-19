@@ -220,8 +220,15 @@ This stylesheet is used for demo 6
   background-color: var(--bs-white)!important;
 }
 
+.dsa-Paragraph {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
 .white-bg .dsa-Title,
-.bg-light .dsa-Title {
+.bg-light .dsa-Title,
+.white-bg .dsa-Paragraph,
+.bg-light .dsa-Paragraph {
   color: var(--color-darkText);
 }
 
