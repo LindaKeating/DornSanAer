@@ -36,6 +36,7 @@ This stylesheet is used for demo 6
   --logo-size-sm: 120px;
 
   --bs-gradient: linear-gradient(to right, #a8c620 0%, #86bc21 100%);
+  --bs-dropShadow: drop-shadow(2px 2px 2px #1c2e36);
 }
 
 /*
@@ -51,6 +52,14 @@ This stylesheet is used for demo 6
 /*
   END FILTER PRESETS
 */
+
+.dsa-header {
+  filter: var(--bs-dropShadow);
+}
+
+.dsa-Footer .andro_footer-socials {
+  display: block;
+}
 
 
 
@@ -286,6 +295,10 @@ This stylesheet is used for demo 6
 
 .dsa-Navigation.andro_header-navigation > ul li a {
   color: var(--color-lightText);
+}
+
+.dsa-countdown.andro_event-countdown.style-2 {
+  border: 2px solid var(--color-lightText);
 }
 
 @media(max-width: 768px){
