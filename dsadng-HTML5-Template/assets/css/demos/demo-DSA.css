@@ -115,7 +115,6 @@ This stylesheet is used for demo 6
 }
 
 
-
 .button.primary{
   color: var(--bs-white);
   background-image: var(--bs-gradient);
@@ -128,18 +127,6 @@ This stylesheet is used for demo 6
 .andro_hero.style-4 .andro_hero-item-inner h1{
   font-size: 70px;
   
-}
-
-.dark-blue-sepiaFilter {
-  filter: url('#dark-blue-sepia');
-}
-
-.warm-seaFilter {
-  filter: url('#warm-sea');
-}
-
-.spring-grassFilter {
-  filter: url('#spring-grass') brightness(0.8);
 }
 
 .andro_gallery.style-2:hover img.spring-grassFilter {
@@ -388,5 +375,15 @@ This stylesheet is used for demo 6
   font-size: 40px;
   font-weight: 400;
   color:#a8c620;
+  }
+}
+
+@media (prefers-color-scheme: dark ) {
+  .dsa-TextCraiceailte {
+    font-family: "Geomanist";
+    background: var(--color-primary);
+    background: var(--bs-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
