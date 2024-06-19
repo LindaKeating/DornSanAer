@@ -264,8 +264,28 @@ This stylesheet is used for demo 6
   color: var(--color-lightText);
 }
 
-.dsa-subTitle {
+.dsa-BlockQuote.blockquote {
+  border-top: none;
+  border-bottom: none;
+  font-weight: normal;
+}
+
+.dsa-BlockQuote .blockquote-footer {
+  margin-top: 0;
+}
+
+.dsa-BlockQuote.blockquote::after {
+  color: var(--color-darkText);
+  top: -1rem;
+  right: unset;
+  left: -1rem;
+  font-weight: 600;
+  opacity: 30%;
+}
+
+.dsa-SubTitle {
   font-size: 60%;
+  display: block;
 }
 
 .dsa-SectionTitle {
