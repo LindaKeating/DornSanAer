@@ -383,6 +383,7 @@ This stylesheet is used for demo 6
     font-family: "Geomanist";
     background: var(--color-primary);
     background: var(--bs-gradient);
+    color: var(--color-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
