@@ -287,17 +287,23 @@
 
       new google.maps.Marker({
         position: new google.maps.LatLng(55.025436632419705, -8.147126205882818),
-        map: map
-    });
+        map: map,
+        title: 'Ionad Cois Locha',
+        class: 'dsa-MapMarker'
+      });
 
     new google.maps.Marker({
       position: new google.maps.LatLng(55.06251811856748, -8.300085118965326),
-      map: map
+      map: map,
+      title: 'Teach Hiúdaí Beag',
+      class: 'dsa-MapMarker'
     });
 
     new google.maps.Marker({
       position: new google.maps.LatLng(55.07094796586628, -8.295235947583599),
-      map: map
+      map: map,
+      title: 'Amharclann Gaoth Dobhair',
+      class: 'dsa-MapMarker'
     });
   }
   
