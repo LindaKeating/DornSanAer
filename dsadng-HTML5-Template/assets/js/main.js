@@ -273,6 +273,36 @@
     $(".andro_header-search").toggleClass('open');
   });
 
+  /*---------------------------------------------------------------------------
+  MAPS
+  ----------------------------------------------------------------------------*/
+  async function initMap(e) {
+    console.log("Maps JavaScript API loaded.");
+
+    let map = new google.maps.Map(document.getElementById("map"), 
+      {center: new google.maps.LatLng(55.04594961403047, -8.20322692888682),
+        zoom: 12, 
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+
+      new google.maps.Marker({
+        position: new google.maps.LatLng(55.025436632419705, -8.147126205882818),
+        map: map
+    });
+
+    new google.maps.Marker({
+      position: new google.maps.LatLng(55.06251811856748, -8.300085118965326),
+      map: map
+    });
+
+    new google.maps.Marker({
+      position: new google.maps.LatLng(55.07094796586628, -8.295235947583599),
+      map: map
+    });
+  }
+  
+  window.initMap = initMap;
+
   /*-------------------------------------------------------------------------------
   Banner Slider
   -------------------------------------------------------------------------------*/

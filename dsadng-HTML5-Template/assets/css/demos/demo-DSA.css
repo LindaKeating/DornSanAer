@@ -308,6 +308,10 @@ This stylesheet is used for demo 6
   border: 2px solid var(--color-lightText);
 }
 
+#map {
+  height: 70vh;
+}
+
 @media(max-width: 768px){
 
   .dsa-fontLarge {
