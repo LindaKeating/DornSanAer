@@ -53,6 +53,25 @@ This stylesheet is used for demo 6
   END FILTER PRESETS
 */
 
+
+.dsa-CoverImage img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.dsa-CoverImage-Title {
+  position: relative;
+}
+
+.dsa-CoverImage-Title > div {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  background-color: var(--color-darkText);
+  padding: 1rem;
+}
+
 .dsa-Addresses address a {
   display: block;
   color: var(--color-darkText);
