@@ -62,7 +62,6 @@
             <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
             <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
             <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
-            <li> <a href="#"> <i class="fab fa-soundcloud"></i> </a> </li>
           </ul>
           <a class="andro_header-cart" href="cart.html">
             <i class="fal fa-shopping-basket"></i>
@@ -146,7 +145,6 @@
         <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
         <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
         <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
-        <li> <a href="#"> <i class="fab fa-soundcloud"></i> </a> </li>
       </ul>
     </div>
 
