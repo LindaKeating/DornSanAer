@@ -172,12 +172,13 @@ fháiltíonn roimh theaghlaigh.
             Cén áit?
           </h2>
           <div class="andro_map">
+            <div id="map"></div>
             <iframe
               width="450"
               height="250"
               frameborder="0" style="border:0"
               referrerpolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDqxS5HUB3kyBN_X_r6lyiz_Hhh05m0aKQ&language=ga&center=55.05041506505306,-8.228661053386459&language=ga&zoom=10&q=ionad+cois+locha+amharclann"
+              src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDqxS5HUB3kyBN_X_r6lyiz_Hhh05m0aKQ&language=ga&center=55.05041506505306,-8.228661053386459&language=ga&zoom=10&q=Ionad+Cois+Locha"
               allowfullscreen
               >
             </iframe>
@@ -504,6 +505,38 @@ fháiltíonn roimh theaghlaigh.
 
   <script src="assets/js/plugins/particles.min.js"></script>
 
+  <!--<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqxS5HUB3kyBN_X_r6lyiz_Hhh05m0aKQ&libraries=maps,marker&v=beta&language=ga"
+  defer
+></script>-->
+
+<script>
+  (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+  ({
+    key: "AIzaSyDqxS5HUB3kyBN_X_r6lyiz_Hhh05m0aKQ",
+    v: "weekly",
+    // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
+    // Add other bootstrap parameters as needed, using camel case.
+  });
+</script>
+
+<script>
+  let map;
+
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+
+  console.log('init map being run');
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
+
+initMap();
+</script>
+
   <!-- Template Scripts -->
   <script src="assets/js/sigma-audioplayer.js"></script>
   <script src="assets/js/main.js"></script>
@@ -511,10 +544,7 @@ fháiltíonn roimh theaghlaigh.
 
   <!-- partial -->
 
-  <script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv25hafPjnOaE1rjVvaCFUQ74_U6x1aNw&libraries=maps,marker&v=beta&region=ie"
-  defer
-></script>
+
 </body>
 
 </html>
