@@ -53,6 +53,17 @@ This stylesheet is used for demo 6
   END FILTER PRESETS
 */
 
+.dsa-Addresses address a {
+  display: block;
+  color: var(--color-darkText);
+  font-size: 1.4rem;
+}
+
+.dsa-Address {
+  font-size: 1.6rem;
+  color: var(--color-darkText);
+}
+
 .dsa-header {
   filter: var(--bs-dropShadow);
 }
@@ -212,7 +223,9 @@ This stylesheet is used for demo 6
 .white-bg .dsa-Title,
 .bg-light .dsa-Title,
 .white-bg .dsa-Paragraph,
-.bg-light .dsa-Paragraph {
+.bg-light .dsa-Paragraph,
+.white-bg .dsa-Address,
+.bg-light .dsa-Address {
   color: var(--color-darkText);
 }
 
