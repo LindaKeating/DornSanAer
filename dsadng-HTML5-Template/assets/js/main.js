@@ -49,9 +49,12 @@
   -------------------------------------------------------------------------------*/
   $('.andro_video-popup').magnificPopup({type: 'iframe'});
   $('.andro_img-popup').magnificPopup({
-    type: 'image',
-    gallery: {
-      enabled: true
+    type: 'iframe',
+    iframe: {
+      markup: '<div class="mfp-iframe-scaler">'+
+                '<div class="mfp-close"></div>'+
+                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+              '</div>'
     }
   });
   $('.andro_img-gallery').each(function() {
