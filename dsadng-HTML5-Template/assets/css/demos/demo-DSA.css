@@ -382,6 +382,25 @@ This stylesheet is used for demo 6
 
 @media(max-width: 420px) {
 
+  .dsa-CoverImage {
+    padding-top: 5rem;
+  }
+
+  .dsa-CoverImage-Title > div {
+    padding: .5rem;
+    position: unset;
+  }
+
+  .dsa-CoverImage-Title h2{
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  .dsa-CoverImage-Title p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
   .dsa-fontLarge {
     font-size: 1.6rem;
     line-height: 1.6rem;
