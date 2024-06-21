@@ -282,29 +282,39 @@
     let map = new google.maps.Map(document.getElementById("map"), 
       {center: new google.maps.LatLng(55.04594961403047, -8.20322692888682),
         zoom: 12, 
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        mapId: 'DEMO_MAP_ID'
       });
 
-      new google.maps.Marker({
+      const dornSanAerImg = document.createElement("img");
+      dornSanAerImg.src = 'assets/img/PlaceMarker.png';
+
+      const dornSanAerImg1 = document.createElement("img");
+      dornSanAerImg1.src = 'assets/img/PlaceMarker.png';
+
+      const dornSanAerImg2 = document.createElement("img");
+      dornSanAerImg2.src = 'assets/img/PlaceMarker.png';
+
+      new google.maps.marker.AdvancedMarkerElement({
         position: new google.maps.LatLng(55.025436632419705, -8.147126205882818),
         map: map,
+        content: dornSanAerImg,
         title: 'Ionad Cois Locha',
-        class: 'dsa-MapMarker'
       });
 
-    new google.maps.Marker({
-      position: new google.maps.LatLng(55.06251811856748, -8.300085118965326),
-      map: map,
-      title: 'Teach Hiúdaí Beag',
-      class: 'dsa-MapMarker'
-    });
+      new google.maps.marker.AdvancedMarkerElement({
+        position: new google.maps.LatLng(55.06251811856748, -8.300085118965326),
+        map: map,
+        content: dornSanAerImg1,
+        title: 'Teach Hiúdaí Beag',
+      });
 
-    new google.maps.Marker({
-      position: new google.maps.LatLng(55.07094796586628, -8.295235947583599),
-      map: map,
-      title: 'Amharclann Gaoth Dobhair',
-      class: 'dsa-MapMarker'
-    });
+      new google.maps.marker.AdvancedMarkerElement({
+        position: new google.maps.LatLng(55.07094796586628, -8.295235947583599),
+        map: map,
+        content: dornSanAerImg2,
+        title: 'Amharclann Gaoth Dobhair',
+      });
   }
   
   window.initMap = initMap;
