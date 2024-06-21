@@ -455,7 +455,7 @@
           </a>
         </div>
         <div class="col-xll-3 col-xl-4  col-md-6 col-sm-6 dsa-galleryItem">
-          <a href="https://youtu.be/jsBcNbwCmOs?t=34" class="andro_img-popup andro_gallery style-2 mb-0"><!-- Link to band page -->
+          <a href="https://www.youtube.com/watch?v=jsBcNbwCmOs" class="andro_img-popup andro_gallery style-2 mb-0"><!-- Link to band page -->
             <img class="andro_img-cover " src="assets/img/artists/Spasas.jpg" alt="gallery">
             <div class="dsa-galleryContent andro_gallery-content">
               <span><h6 class="h4 dsa-galleryItemTitle">Spásas</h6></span>
