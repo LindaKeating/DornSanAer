@@ -276,6 +276,11 @@ This stylesheet is used for demo 6
   color: var(--color-lightText);
 }
 
+.dsa-ListGroupHeading.list-group-item {
+  background-color: transparent;
+  border: 0;
+}
+
 .dsa-BlockQuote.blockquote {
   border-top: none;
   border-bottom: none;
