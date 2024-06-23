@@ -53,11 +53,41 @@ This stylesheet is used for demo 6
   END FILTER PRESETS
 */
 
+.dsa-skewedBackground::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #a41d1d;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
+  background: linear-gradient(315deg, #FF0057, #E64A19);
+  opacity: 100%;
+}
+
+.dsa-skewedBackground::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+    pointer-events: none;
+    opacity: 100%;
+}
+
 
 .dsa-CoverImage img {
   width: 100%;
   object-fit: cover;
   position: relative;
+}
+
+.dsa-FullWidth {
+  width: 100%;
 }
 
 .dsa-CoverImage-Title {
