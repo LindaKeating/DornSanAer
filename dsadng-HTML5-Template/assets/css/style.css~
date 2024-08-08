@@ -3855,7 +3855,7 @@ table .form-control:focus{
 }
 .andro_pricing.style-2 .andro_pricing-price-wrap .andro_pricing-currency{
   color: var(--color-primary);
-  font-size: 80px;
+  font-size: 50px;
 }
 .andro_pricing.style-2 .andro_pricing-plan{
   font-weight: 600;
