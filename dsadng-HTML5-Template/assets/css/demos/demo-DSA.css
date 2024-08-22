@@ -39,6 +39,10 @@ This stylesheet is used for demo 6
   --bs-dropShadow: drop-shadow(2px 2px 2px #1c2e36);
 }
 
+:root(.formFooter) {
+  display: hidden !important;
+}
+
 /*
   FILTER PRESETS
 */
