@@ -83,6 +83,13 @@ This stylesheet is used for demo 6
     opacity: 100%;
 }
 
+.dsa-highlightedText {
+  background-color: var(--color-primary);
+  color: var(--color-darkText);
+  padding-top: .5rem;
+  padding-bottom: .2rem;
+}
+
 
 .dsa-CoverImage img {
   width: 100%;
