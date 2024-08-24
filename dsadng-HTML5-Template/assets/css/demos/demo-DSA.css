@@ -83,6 +83,10 @@ This stylesheet is used for demo 6
     opacity: 100%;
 }
 
+.andro_pricing.style-2 .andro_pricing-price-wrap span {
+  font-size: 140px;
+}
+
 .dsa-highlightedText {
   color: var(--color-darkText);
 }
@@ -401,18 +405,18 @@ This stylesheet is used for demo 6
 @media(max-width: 768px){
 
   .dsa-fontLarge {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .dsa-fontMedium {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
   }
 
   .dsa-fontSmall {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 
   .section-title .family-display{
@@ -456,18 +460,18 @@ This stylesheet is used for demo 6
   }
 
   .dsa-fontLarge {
-    font-size: 1.6rem;
-    line-height: 1.6rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
   }
 
   .dsa-fontMedium {
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
   }
 
   .dsa-fontSmall {
-    font-size: 1.1rem;
-    line-height: 1.1rem;
+    font-size: 1rem;
+    line-height: 1rem;
   }
 
   .section-title .family-display{
