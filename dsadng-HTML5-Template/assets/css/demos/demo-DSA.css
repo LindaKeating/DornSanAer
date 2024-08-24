@@ -91,12 +91,7 @@ This stylesheet is used for demo 6
   color: var(--color-darkText);
 }
 
-.dsa-OrdReatha .dsa-dateVenue .dsa-date {
-  color: var(--color-lightText) !important;
-}
-
-.dsa-highlightedText,
-.dsa-date {
+.dsa-highlightedText {
   background-color: var(--color-primary);
   padding-top: .5rem;
   padding-bottom: .2rem;
