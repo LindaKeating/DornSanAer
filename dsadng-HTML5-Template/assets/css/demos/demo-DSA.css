@@ -84,8 +84,16 @@ This stylesheet is used for demo 6
 }
 
 .dsa-highlightedText {
-  background-color: var(--color-primary);
   color: var(--color-darkText);
+}
+
+.dsa-OrdReatha .dsa-dateVenue .dsa-date {
+  color: var(--color-lightText) !important;
+}
+
+.dsa-highlightedText,
+.dsa-date {
+  background-color: var(--color-primary);
   padding-top: .5rem;
   padding-bottom: .2rem;
 }
@@ -351,18 +359,18 @@ This stylesheet is used for demo 6
 }
 
 .dsa-fontLarge {
-  font-size: 5rem;
-  line-height: 5rem;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
 .dsa-fontMedium {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 
 .dsa-fontSmall {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .dsa-fontLight {
