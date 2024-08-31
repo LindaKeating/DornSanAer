@@ -21,7 +21,7 @@ This stylesheet is used for demo 6
   --color-primary: #a8c620;
   --color-primary-darker: #6e821a;
   --color-secondary: #d054ad;
-  --color-primary-hover: #D4AE16;
+  --color-primary-hover: #a8c620;
   --color-primary-hue: #FFFAE8;
   --color-primary-rgb: 255, 209, 25;
   --color-darkText: #253d47;
@@ -81,6 +81,15 @@ This stylesheet is used for demo 6
     background: rgba(255,255,255,0.05);
     pointer-events: none;
     opacity: 100%;
+}
+
+.dsa-accordionBody {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accordion-header .fa-solid {
+  padding-right: 1rem;
 }
 
 .andro_pricing.style-2 .andro_pricing-price-wrap span {
