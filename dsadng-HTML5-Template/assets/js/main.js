@@ -277,7 +277,6 @@
   MAPS
   ----------------------------------------------------------------------------*/
   async function initMap(e) {
-    console.log("Maps JavaScript API loaded.");
 
     let map = new google.maps.Map(document.getElementById("map"), 
       {center: new google.maps.LatLng(55.04594961403047, -8.20322692888682),
