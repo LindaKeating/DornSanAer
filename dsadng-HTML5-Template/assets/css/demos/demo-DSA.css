@@ -111,6 +111,17 @@ This stylesheet is used for demo 6
   color: var(--color-darkText);
 }
 
+.dsa-SceidealTitle {
+  font-size: large;
+}
+
+.dsa-SceidealAm,
+.dsa-SceidealAit {
+  font-size: small;
+  color: grey;
+  display: block;
+}
+
 
 .dsa-CoverImage img {
   width: 100%;
