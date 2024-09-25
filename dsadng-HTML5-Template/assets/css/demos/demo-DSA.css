@@ -107,6 +107,10 @@ This stylesheet is used for demo 6
   padding-bottom: .2rem;
 }
 
+.dsa-Sceideal {
+  color: var(--color-darkText);
+}
+
 
 .dsa-CoverImage img {
   width: 100%;
