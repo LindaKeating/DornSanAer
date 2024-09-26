@@ -113,6 +113,7 @@ This stylesheet is used for demo 6
 
 .dsa-SceidealTitle {
   font-size: large;
+  color: var(--color-darkText);
 }
 
 .dsa-SceidealAm,
